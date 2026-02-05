@@ -1,3 +1,4 @@
+/* GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+/* NAVEGAÇÃO */
 .nav{
     height: 100px;
     background-color: transparent;
@@ -73,7 +75,9 @@ body{
     opacity: 1;
     font-weight: 600;
 }
+/* FIM DA NAVEGAÇÃO */
 
+/* MAIN */
 .text{
     height: 400px;
     margin-top: 150px;
@@ -126,3 +130,4 @@ body{
 .drinks:hover{
     transform: scale(1.1);
 }
+/* FIM DO MAIN */
