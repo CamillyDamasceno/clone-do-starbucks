@@ -91,12 +91,18 @@ body{
     opacity: 0.8;
 }
 
+.text span{
+    color: #007042;
+    border-bottom: 3px solid #007042;
+    transition: 0.5s;
+}
+
 .text .order-now{
     height: 40px;
     width: 100px;
     border-radius: 30px;
     border: none;
-    background-color: green;
+    background-color: #007042;
     color: white;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -106,9 +112,9 @@ body{
 .text .order-now:hover{
     transform: scale(1.1);
     background-color: transparent;
-    color: green;
-    border: 1px solid green;
-    box-shadow: 1px 1px 5px 1px green;
+    color: #007042;
+    border: 1px solid #007042;
+    box-shadow: 1px 1px 5px 1px #007042;
 }
 
 .icons .instagram{
@@ -131,3 +137,41 @@ body{
     transform: scale(1.1);
 }
 /* FIM DO MAIN */
+
+/* FOOTER */
+.footer{
+    background-color: transparent;
+    border-top: 1px solid #0070412f;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .logo img{
+    height: 30px;
+}
+
+.footer .links{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.footer .links-a a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer .copyright{
+    color: rgba(244, 232, 220, 0.212)
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.footer .links-a a:hover{
+    text-decoration: underline;
+}
+/* FIM DO FOOTER */
