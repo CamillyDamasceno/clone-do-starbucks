@@ -166,7 +166,7 @@ body{
 }
 
 .footer .copyright{
-    color: rgba(244, 232, 220, 0.212)
+    color: rgba(244, 232, 220, 0.212);
     font-weight: 300;
     font-size: 10px;
 }
